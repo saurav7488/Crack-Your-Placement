@@ -20,3 +20,5 @@ int main(){
       vector<vector<int>> ans;
       combination(arr,r,0,0,cur,ans);
 }
+
+// Tc->O(n^r)+O(nlogn)
